@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcast Generator</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body class="bg-gray-100">
+    <!-- Loading Overlay -->
+    <div id="loadingOverlay" class="loading-overlay hidden">
+        <div class="loading-content">
+            <div class="loading-spinner mx-auto mb-4"></div>
+            <p id="loadingText" class="text-lg font-medium text-gray-700">Processing...</p>
+        </div>
+    </div>
+
+    <div class="container mx-auto px-4 py-8 max-w-6xl">
+        <h1 class="text-3xl font-bold mb-8 text-center text-gray-800">Podcast Generator</h1>
+
+        <!-- Status Messages -->
+        <div id="statusMessage" class="mb-4 hidden">
+            <div class="p-4 rounded-md">
+                <p class="text-center"></p>
+            </div>
+        </div>
+
+        <!-- Transcript Generation Section -->
+        <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+            <h2 class="text-xl font-semibold mb-4">Step 1: Generate Transcript</h2>
+            <form id="transcriptForm" class="space-y-4">
+                <div>
+                    <label for="text" class="block text-sm font-medium text-gray-700 mb-2">Enter Keywords or
+                        Phrases</label>
+                    <textarea id="text" name="text" rows="4"
+                        class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        required></textarea>
+                </div>
+                <button type="submit"
+                    class="w-full bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    Generate Transcript
+                </button>
+            </form>
+
+            <!-- Transcript Display -->
+            <div id="transcriptResult" class="mt-4 hidden">
+                <div class="flex justify-between items-center mb-2">
+                    <h3 class="text-lg font-medium">Generated Transcript:</h3>
+                    <button id="downloadTranscript"
+                        class="bg-blue-500 text-white px-3 py-1 rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm">
+                        Download Transcript
+                    </button>
+                </div>
+                <div id="transcriptContent"
+                    class="bg-gray-50 p-4 rounded-md text-sm whitespace-pre-wrap overflow-auto max-h-96 font-mono">
+                </div>
+            </div>
+        </div>
+
+        <!-- Audio Generation Section -->
+        <div class="bg-white rounded-lg shadow-md p-6">
+            <h2 class="text-xl font-semibold mb-4">Step 2: Generate Audio</h2>
+            <form id="audioForm" class="space-y-4">
+                <input type="hidden" id="transcriptFile" name="transcript_file">
+                <button type="submit"
+                    class="w-full bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-500"
+                    disabled>
+                    Generate Audio
+                </button>
+            </form>
+
+            <!-- Audio Player -->
+            <div id="audioPlayer" class="mt-4 hidden">
+                <div class="flex justify-between items-center mb-2">
+                    <h3 class="text-lg font-medium">Generated Audio:</h3>
+                    <button id="downloadAudio"
+                        class="bg-green-500 text-white px-3 py-1 rounded-md hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-500 text-sm">
+                        Download Audio
+                    </button>
+                </div>
+                <audio controls class="w-full">
+                    <source id="audioSource" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            function showLoading(message = 'Processing...') {
+                $('#loadingText').text(message);
+                $('#loadingOverlay').removeClass('hidden').show();
+            }
+
+            function hideLoading() {
+                $('#loadingOverlay').addClass('hidden').hide();
+            }
+
+            function showStatus(message, isError = false) {
+                const statusDiv = $('#statusMessage');
+                statusDiv.removeClass('hidden bg-red-100 bg-green-100');
+                statusDiv.find('p').removeClass('text-red-700 text-green-700');
+
+                if (isError) {
+                    statusDiv.addClass('bg-red-100');
+                    statusDiv.find('p').addClass('text-red-700');
+                } else {
+                    statusDiv.addClass('bg-green-100');
+                    statusDiv.find('p').addClass('text-green-700');
+                }
+
+                statusDiv.find('p').text(message);
+                statusDiv.show();
+
+                if (!isError) {
+                    setTimeout(() => {
+                        statusDiv.fadeOut();
+                    }, 5000);
+                }
+            }
+
+            function downloadFile(url, filename) {
+                const link = document.createElement('a');
+                link.href = url;
+                link.download = filename;
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+            }
+
+            // Handle transcript generation
+            $('#transcriptForm').on('submit', function (e) {
+                e.preventDefault();
+
+                const formData = new FormData();
+                formData.append('text', $('#text').val());
+
+                showLoading('Generating transcript...');
+
+                $.ajax({
+                    url: '/generate-transcript',
+                    type: 'POST',
+                    data: formData,
+                    processData: false,
+                    contentType: false,
+                    beforeSend: function () {
+                        $('#transcriptForm button').prop('disabled', true);
+                    },
+                    success: function (response) {
+                        $('#transcriptFile').val(response.transcript_file);
+                        $('#transcriptContent').text(response.transcript_content);
+                        $('#transcriptResult').removeClass('hidden');
+                        $('#audioForm button').prop('disabled', false);
+                        showStatus('Transcript generated successfully!', false);
+                    },
+                    error: function (xhr) {
+                        const errorMsg = xhr.responseJSON?.detail || 'Error generating transcript';
+                        showStatus(errorMsg, true);
+                    },
+                    complete: function () {
+                        $('#transcriptForm button').prop('disabled', false);
+                        hideLoading();
+                    }
+                });
+            });
+
+            // Handle transcript download
+            $('#downloadTranscript').on('click', function () {
+                const transcriptFile = $('#transcriptFile').val();
+                const transcriptContent = $('#transcriptContent').text();
+                const blob = new Blob([transcriptContent], { type: 'text/plain' });
+                const url = URL.createObjectURL(blob);
+                const filename = transcriptFile.split('/').pop() || 'transcript.txt';
+                downloadFile(url, filename);
+                URL.revokeObjectURL(url);
+                showStatus('Transcript downloaded successfully!', false);
+            });
+
+            // Handle audio generation
+            $('#audioForm').on('submit', function (e) {
+                e.preventDefault();
+
+                const formData = new FormData();
+                formData.append('transcript_file', $('#transcriptFile').val());
+
+                showLoading('Generating audio...');
+
+                $.ajax({
+                    url: '/generate-audio',
+                    type: 'POST',
+                    data: formData,
+                    processData: false,
+                    contentType: false,
+                    xhrFields: {
+                        responseType: 'blob'
+                    },
+                    beforeSend: function () {
+                        $('#audioForm button').prop('disabled', true);
+                    },
+                    success: function (response) {
+                        const audioUrl = URL.createObjectURL(response);
+                        $('#audioSource').attr('src', audioUrl);
+                        $('#audioPlayer audio')[0].load();
+                        $('#audioPlayer').removeClass('hidden');
+                        showStatus('Audio generated successfully!', false);
+                    },
+                    error: function (xhr) {
+                        let errorMsg = 'Error generating audio';
+                        try {
+                            const reader = new FileReader();
+                            reader.onload = function () {
+                                const errorResponse = JSON.parse(this.result);
+                                errorMsg = errorResponse.detail || errorMsg;
+                                showStatus(errorMsg, true);
+                            };
+                            reader.readAsText(xhr.response);
+                        } catch (e) {
+                            showStatus(errorMsg, true);
+                        }
+                    },
+                    complete: function () {
+                        $('#audioForm button').prop('disabled', false);
+                        hideLoading();
+                    }
+                });
+            });
+
+            // Handle audio download
+            $('#downloadAudio').on('click', function () {
+                const audioUrl = $('#audioSource').attr('src');
+                const filename = 'podcast.mp3';
+                downloadFile(audioUrl, filename);
+                showStatus('Audio downloaded successfully!', false);
+            });
+        });
+    </script>
+</body>
+
+</html>

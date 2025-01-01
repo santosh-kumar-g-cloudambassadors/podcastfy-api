@@ -1,0 +1,11 @@
+<Person1> "Welcome to PODCASTIFY  - Your Personal Generative AI Podcast. Happy New Year, listeners, and welcome to the first episode of 2025! We're ringing in the new year with, well, the new year itself!  2025! Can you believe it?"
+</Person1><Person2> "I know, right? It feels like 2024 just zipped by.  It's like, whoosh– and suddenly we're here!  So, any predictions for this fresh, shiny new year?"
+</Person2><Person1> "Ooh, predictions! I predict flying cars will still not be a thing.  Though, I do predict some seriously cool tech advancements. Um, think AI, think VR, think… personalized nutrition delivered by drones?"
+</Person1><Person2> "Drones delivering smoothies?  I'm in!  Although,  I'm a little skeptical about the personalized nutrition part.  What if the drone misreads my order and delivers kale chips instead of key lime pie? That's a new year's nightmare!"
+</Person2><Person1> "Haha!  Valid point!  Okay, okay,  maybe not drones with pie. But I do think we’ll see more integration of technology into everyday life.  More seamless, you know?"
+</Person1><Person2> "Got it.  I hope this year is full of exciting breakthroughs!  Think about space exploration.  Maybe we’ll finally discover life on Mars! Or, you know, at least some really cool Martian rocks." 
+</Person2><Person1> "Martian rocks would be pretty cool. I'm hoping for big things in renewable energy!  Let's make this the year we finally get serious about sustainability. What about you? Any resolutions?"
+</Person1><Person2> "My resolution? Hmm…To finally organize my digital photo library.  Thousands of pictures, just sitting there! It’s a digital jungle." 
+</Person2><Person1> "Oh, I feel that.  Mine is to learn how to play…uh….the ukulele.  I've always wanted to. Picture me, strumming on a beach somewhere." 
+</Person1><Person2> " While a drone delivers you a smoothie! "
+</Person2><Person1> "Exactly!  It's the 2025 dream.  But seriously folks, cheers to 2025! May it be a year of  innovation, connection, and perhaps, just perhaps, a little ukulele music.  And from all of us here at PODCASTIFY, happy new year! We’ll catch you next time!"</Person1>

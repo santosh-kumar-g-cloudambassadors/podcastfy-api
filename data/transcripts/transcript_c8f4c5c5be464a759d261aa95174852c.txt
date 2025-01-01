@@ -1,0 +1,13 @@
+<Person1> "WELCOME TO PODCASTIFY  - Your Personal Generative AI Podcast. And a HUGE welcome to all our cricket-loving listeners out there!  South Africa… in the World Test Championship Final! Can you believe it?!"
+</Person1><Person2> "I know, right?! What a turnaround for the Proteas! Amazing stuff.  I was on the edge of my seat during that last series against the West Indies." 
+</Person2><Person1> "Absolutely!  They really needed those wins to cement their spot. Uh, remember all the talk earlier in the season?  Lots of folks had written them off after that England series." 
+</Person1><Person2> "Yeah, but they came back swinging! Elgar's leadership has been instrumental, wouldn't you say? He's really rallied the troops." 
+</Person2><Person1> "One hundred percent!  And the bowlers… Rabada, Nortje, Jansen! Pure fire! They've been tearing through batting lineups." 
+</Person1><Person2> "They've been unplayable at times! But let’s not forget the contributions from the batsmen too.  Bavuma’s captaincy in the last series… crucial!"
+</Person2><Person1> "So true! Bavuma's leadership has been top-notch, and it’s made a huge difference in their performance! They really needed someone to step up in Elgar's absence. And, of course,  Markram… he's been in sublime form!" 
+</Person1><Person2> "Seriously! That double century against the West Indies… unforgettable! He's been a run-scoring machine." 
+</Person2><Person1> "Totally agree!  So, looking ahead to the final… they’re up against a tough opponent in India, Australia, or whoever clinches that last spot."
+</Person1><Person2> "It's gonna be a clash of the titans, no doubt!  But South Africa has the momentum, the talent, and the belief. They can definitely win this thing!”
+</Person2><Person1> "I’m with you there! They’ve shown incredible resilience and determination throughout the cycle. I can't wait to see them battle it out in the final!"
+</Person1><Person2> "Me neither!  It's going to be epic! Anything else to add before we wrap up?"
+</Person2><Person1> "Just want to congratulate the Proteas again on this incredible achievement! They've made their nation proud!  And to all our listeners, thanks for tuning in to PODCASTIFY!  Catch you next time!"</Person1>

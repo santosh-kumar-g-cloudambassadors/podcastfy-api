@@ -1,0 +1,6 @@
+git+https://github.com/souzatharsis/podcastify.git
+fastapi 
+uvicorn 
+jinja2 
+python-multipart 
+python-dotenv
