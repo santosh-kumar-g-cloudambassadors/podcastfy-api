@@ -1,0 +1,2717 @@
+{
+    "Afrikaans (South Africa)": {
+        "languageCode": "af-ZA",
+        "types": {
+            "Standard": [
+                {
+                    "name": "af-ZA-Standard-A",
+                    "gender": "FEMALE"
+                }
+            ],
+            "Premium": [],
+            "Studio": []
+        }
+    },
+    "Arabic": {
+        "languageCode": "ar-XA",
+        "types": {
+            "Standard": [
+                {
+                    "name": "ar-XA-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "ar-XA-Standard-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "ar-XA-Standard-C",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "ar-XA-Standard-D",
+                    "gender": "FEMALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "ar-XA-Wavenet-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "ar-XA-Wavenet-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "ar-XA-Wavenet-C",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "ar-XA-Wavenet-D",
+                    "gender": "FEMALE"
+                }
+            ],
+            "Studio": []
+        }
+    },
+    "Basque (Spain)": {
+        "languageCode": "eu-ES",
+        "types": {
+            "Standard": [
+                {
+                    "name": "eu-ES-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "eu-ES-Standard-B",
+                    "gender": "FEMALE"
+                }
+            ],
+            "Premium": [],
+            "Studio": []
+        }
+    },
+    "Bengali (India)": {
+        "languageCode": "bn-IN",
+        "types": {
+            "Standard": [
+                {
+                    "name": "bn-IN-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "bn-IN-Standard-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "bn-IN-Standard-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "bn-IN-Standard-D",
+                    "gender": "MALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "bn-IN-Wavenet-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "bn-IN-Wavenet-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "bn-IN-Wavenet-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "bn-IN-Wavenet-D",
+                    "gender": "MALE"
+                }
+            ],
+            "Studio": []
+        }
+    },
+    "Bulgarian (Bulgaria)": {
+        "languageCode": "bg-BG",
+        "types": {
+            "Standard": [
+                {
+                    "name": "bg-BG-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "bg-BG-Standard-B",
+                    "gender": "FEMALE"
+                }
+            ],
+            "Premium": [],
+            "Studio": []
+        }
+    },
+    "Catalan (Spain)": {
+        "languageCode": "ca-ES",
+        "types": {
+            "Standard": [
+                {
+                    "name": "ca-ES-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "ca-ES-Standard-B",
+                    "gender": "FEMALE"
+                }
+            ],
+            "Premium": [],
+            "Studio": []
+        }
+    },
+    "Chinese (Hong Kong)": {
+        "languageCode": "yue-HK",
+        "types": {
+            "Standard": [
+                {
+                    "name": "yue-HK-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "yue-HK-Standard-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "yue-HK-Standard-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "yue-HK-Standard-D",
+                    "gender": "MALE"
+                }
+            ],
+            "Premium": [],
+            "Studio": []
+        }
+    },
+    "Czech (Czech Republic)": {
+        "languageCode": "cs-CZ",
+        "types": {
+            "Standard": [
+                {
+                    "name": "cs-CZ-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "cs-CZ-Standard-B",
+                    "gender": "FEMALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "cs-CZ-Wavenet-A",
+                    "gender": "FEMALE"
+                }
+            ],
+            "Studio": []
+        }
+    },
+    "Danish (Denmark)": {
+        "languageCode": "da-DK",
+        "types": {
+            "Standard": [
+                {
+                    "name": "da-DK-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "da-DK-Standard-C",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "da-DK-Standard-D",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "da-DK-Standard-E",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "da-DK-Standard-F",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "da-DK-Standard-G",
+                    "gender": "MALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "da-DK-Neural2-D",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "da-DK-Wavenet-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "da-DK-Wavenet-C",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "da-DK-Wavenet-D",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "da-DK-Wavenet-E",
+                    "gender": "FEMALE"
+                }
+            ],
+            "Studio": []
+        }
+    },
+    "Dutch (Belgium)": {
+        "languageCode": "nl-BE",
+        "types": {
+            "Standard": [
+                {
+                    "name": "nl-BE-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "nl-BE-Standard-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "nl-BE-Standard-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "nl-BE-Standard-D",
+                    "gender": "MALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "nl-BE-Wavenet-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "nl-BE-Wavenet-B",
+                    "gender": "MALE"
+                }
+            ],
+            "Studio": []
+        }
+    },
+    "Dutch (Netherlands)": {
+        "languageCode": "nl-NL",
+        "types": {
+            "Standard": [
+                {
+                    "name": "nl-NL-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "nl-NL-Standard-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "nl-NL-Standard-C",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "nl-NL-Standard-D",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "nl-NL-Standard-E",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "nl-NL-Standard-F",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "nl-NL-Standard-G",
+                    "gender": "MALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "nl-NL-Wavenet-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "nl-NL-Wavenet-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "nl-NL-Wavenet-C",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "nl-NL-Wavenet-D",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "nl-NL-Wavenet-E",
+                    "gender": "FEMALE"
+                }
+            ],
+            "Studio": []
+        }
+    },
+    "English (Australia)": {
+        "languageCode": "en-AU",
+        "types": {
+            "Standard": [
+                {
+                    "name": "en-AU-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-AU-Standard-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "en-AU-Standard-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-AU-Standard-D",
+                    "gender": "MALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "en-AU-Journey-D",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "en-AU-Journey-F",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-AU-Journey-O",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-AU-Neural2-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-AU-Neural2-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "en-AU-Neural2-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-AU-Neural2-D",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "en-AU-News-E",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-AU-News-F",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-AU-News-G",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "en-AU-Polyglot-1",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "en-AU-Wavenet-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-AU-Wavenet-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "en-AU-Wavenet-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-AU-Wavenet-D",
+                    "gender": "MALE"
+                }
+            ],
+            "Studio": []
+        }
+    },
+    "English (India)": {
+        "languageCode": "en-IN",
+        "types": {
+            "Standard": [
+                {
+                    "name": "en-IN-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-IN-Standard-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "en-IN-Standard-C",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "en-IN-Standard-D",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-IN-Standard-E",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-IN-Standard-F",
+                    "gender": "MALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "en-IN-Journey-D",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "en-IN-Journey-F",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-IN-Journey-O",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-IN-Neural2-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-IN-Neural2-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "en-IN-Neural2-C",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "en-IN-Neural2-D",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-IN-Wavenet-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-IN-Wavenet-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "en-IN-Wavenet-C",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "en-IN-Wavenet-D",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-IN-Wavenet-E",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-IN-Wavenet-F",
+                    "gender": "MALE"
+                }
+            ],
+            "Studio": []
+        }
+    },
+    "English (UK)": {
+        "languageCode": "en-GB",
+        "types": {
+            "Standard": [
+                {
+                    "name": "en-GB-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-GB-Standard-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "en-GB-Standard-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-GB-Standard-D",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "en-GB-Standard-F",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-GB-Standard-N",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-GB-Standard-O",
+                    "gender": "MALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "en-GB-Journey-D",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "en-GB-Journey-F",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-GB-Journey-O",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-GB-Neural2-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-GB-Neural2-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "en-GB-Neural2-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-GB-Neural2-D",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "en-GB-Neural2-F",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-GB-News-G",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-GB-News-H",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-GB-News-I",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-GB-News-J",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "en-GB-News-K",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "en-GB-News-L",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "en-GB-News-M",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "en-GB-Wavenet-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-GB-Wavenet-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "en-GB-Wavenet-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-GB-Wavenet-D",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "en-GB-Wavenet-F",
+                    "gender": "FEMALE"
+                }
+            ],
+            "Studio": [
+                {
+                    "name": "en-GB-Studio-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "en-GB-Studio-C",
+                    "gender": "FEMALE"
+                }
+            ]
+        }
+    },
+    "English (US)": {
+        "languageCode": "en-US",
+        "types": {
+            "Standard": [
+                {
+                    "name": "en-US-Standard-A",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "en-US-Standard-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "en-US-Standard-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-US-Standard-D",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "en-US-Standard-E",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-US-Standard-F",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-US-Standard-G",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-US-Standard-H",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-US-Standard-I",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "en-US-Standard-J",
+                    "gender": "MALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "en-US-Casual-K",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "en-US-Journey-D",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "en-US-Journey-F",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-US-Journey-O",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-US-Neural2-A",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "en-US-Neural2-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-US-Neural2-D",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "en-US-Neural2-E",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-US-Neural2-F",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-US-Neural2-G",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-US-Neural2-H",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-US-Neural2-I",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "en-US-Neural2-J",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "en-US-News-K",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-US-News-L",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-US-News-N",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "en-US-Wavenet-A",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "en-US-Wavenet-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "en-US-Wavenet-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-US-Wavenet-D",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "en-US-Wavenet-E",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-US-Wavenet-F",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-US-Wavenet-G",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-US-Wavenet-H",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-US-Wavenet-I",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "en-US-Wavenet-J",
+                    "gender": "MALE"
+                }
+            ],
+            "Studio": [
+                {
+                    "name": "en-US-Studio-O",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "en-US-Studio-Q",
+                    "gender": "MALE"
+                }
+            ]
+        }
+    },
+    "Filipino (Philippines)": {
+        "languageCode": "fil-PH",
+        "types": {
+            "Standard": [
+                {
+                    "name": "fil-PH-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "fil-PH-Standard-B",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "fil-PH-Standard-C",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "fil-PH-Standard-D",
+                    "gender": "MALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "fil-PH-Wavenet-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "fil-PH-Wavenet-B",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "fil-PH-Wavenet-C",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "fil-PH-Wavenet-D",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "fil-ph-Neural2-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "fil-ph-Neural2-D",
+                    "gender": "MALE"
+                }
+            ],
+            "Studio": []
+        }
+    },
+    "Finnish (Finland)": {
+        "languageCode": "fi-FI",
+        "types": {
+            "Standard": [
+                {
+                    "name": "fi-FI-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "fi-FI-Standard-B",
+                    "gender": "FEMALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "fi-FI-Wavenet-A",
+                    "gender": "FEMALE"
+                }
+            ],
+            "Studio": []
+        }
+    },
+    "French (Canada)": {
+        "languageCode": "fr-CA",
+        "types": {
+            "Standard": [
+                {
+                    "name": "fr-CA-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "fr-CA-Standard-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "fr-CA-Standard-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "fr-CA-Standard-D",
+                    "gender": "MALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "fr-CA-Journey-D",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "fr-CA-Journey-F",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "fr-CA-Journey-O",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "fr-CA-Neural2-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "fr-CA-Neural2-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "fr-CA-Neural2-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "fr-CA-Neural2-D",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "fr-CA-Wavenet-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "fr-CA-Wavenet-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "fr-CA-Wavenet-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "fr-CA-Wavenet-D",
+                    "gender": "MALE"
+                }
+            ],
+            "Studio": []
+        }
+    },
+    "French (France)": {
+        "languageCode": "fr-FR",
+        "types": {
+            "Standard": [
+                {
+                    "name": "fr-FR-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "fr-FR-Standard-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "fr-FR-Standard-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "fr-FR-Standard-D",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "fr-FR-Standard-E",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "fr-FR-Standard-F",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "fr-FR-Standard-G",
+                    "gender": "MALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "fr-FR-Journey-D",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "fr-FR-Journey-F",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "fr-FR-Journey-O",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "fr-FR-Neural2-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "fr-FR-Neural2-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "fr-FR-Neural2-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "fr-FR-Neural2-D",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "fr-FR-Neural2-E",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "fr-FR-Polyglot-1",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "fr-FR-Wavenet-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "fr-FR-Wavenet-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "fr-FR-Wavenet-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "fr-FR-Wavenet-D",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "fr-FR-Wavenet-E",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "fr-FR-Wavenet-F",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "fr-FR-Wavenet-G",
+                    "gender": "MALE"
+                }
+            ],
+            "Studio": [
+                {
+                    "name": "fr-FR-Studio-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "fr-FR-Studio-D",
+                    "gender": "MALE"
+                }
+            ]
+        }
+    },
+    "Galician (Spain)": {
+        "languageCode": "gl-ES",
+        "types": {
+            "Standard": [
+                {
+                    "name": "gl-ES-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "gl-ES-Standard-B",
+                    "gender": "FEMALE"
+                }
+            ],
+            "Premium": [],
+            "Studio": []
+        }
+    },
+    "German (Germany)": {
+        "languageCode": "de-DE",
+        "types": {
+            "Standard": [
+                {
+                    "name": "de-DE-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "de-DE-Standard-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "de-DE-Standard-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "de-DE-Standard-D",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "de-DE-Standard-E",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "de-DE-Standard-F",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "de-DE-Standard-G",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "de-DE-Standard-H",
+                    "gender": "MALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "de-DE-Journey-D",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "de-DE-Journey-F",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "de-DE-Journey-O",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "de-DE-Neural2-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "de-DE-Neural2-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "de-DE-Neural2-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "de-DE-Neural2-D",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "de-DE-Neural2-F",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "de-DE-Polyglot-1",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "de-DE-Wavenet-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "de-DE-Wavenet-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "de-DE-Wavenet-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "de-DE-Wavenet-D",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "de-DE-Wavenet-E",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "de-DE-Wavenet-F",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "de-DE-Wavenet-G",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "de-DE-Wavenet-H",
+                    "gender": "MALE"
+                }
+            ],
+            "Studio": [
+                {
+                    "name": "de-DE-Studio-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "de-DE-Studio-C",
+                    "gender": "FEMALE"
+                }
+            ]
+        }
+    },
+    "Greek (Greece)": {
+        "languageCode": "el-GR",
+        "types": {
+            "Standard": [
+                {
+                    "name": "el-GR-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "el-GR-Standard-B",
+                    "gender": "FEMALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "el-GR-Wavenet-A",
+                    "gender": "FEMALE"
+                }
+            ],
+            "Studio": []
+        }
+    },
+    "Gujarati (India)": {
+        "languageCode": "gu-IN",
+        "types": {
+            "Standard": [
+                {
+                    "name": "gu-IN-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "gu-IN-Standard-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "gu-IN-Standard-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "gu-IN-Standard-D",
+                    "gender": "MALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "gu-IN-Wavenet-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "gu-IN-Wavenet-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "gu-IN-Wavenet-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "gu-IN-Wavenet-D",
+                    "gender": "MALE"
+                }
+            ],
+            "Studio": []
+        }
+    },
+    "Hebrew (Israel)": {
+        "languageCode": "he-IL",
+        "types": {
+            "Standard": [
+                {
+                    "name": "he-IL-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "he-IL-Standard-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "he-IL-Standard-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "he-IL-Standard-D",
+                    "gender": "MALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "he-IL-Wavenet-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "he-IL-Wavenet-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "he-IL-Wavenet-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "he-IL-Wavenet-D",
+                    "gender": "MALE"
+                }
+            ],
+            "Studio": []
+        }
+    },
+    "Hindi (India)": {
+        "languageCode": "hi-IN",
+        "types": {
+            "Standard": [
+                {
+                    "name": "hi-IN-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "hi-IN-Standard-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "hi-IN-Standard-C",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "hi-IN-Standard-D",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "hi-IN-Standard-E",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "hi-IN-Standard-F",
+                    "gender": "MALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "hi-IN-Neural2-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "hi-IN-Neural2-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "hi-IN-Neural2-C",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "hi-IN-Neural2-D",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "hi-IN-Wavenet-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "hi-IN-Wavenet-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "hi-IN-Wavenet-C",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "hi-IN-Wavenet-D",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "hi-IN-Wavenet-E",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "hi-IN-Wavenet-F",
+                    "gender": "MALE"
+                }
+            ],
+            "Studio": []
+        }
+    },
+    "Hungarian (Hungary)": {
+        "languageCode": "hu-HU",
+        "types": {
+            "Standard": [
+                {
+                    "name": "hu-HU-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "hu-HU-Standard-B",
+                    "gender": "FEMALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "hu-HU-Wavenet-A",
+                    "gender": "FEMALE"
+                }
+            ],
+            "Studio": []
+        }
+    },
+    "Icelandic (Iceland)": {
+        "languageCode": "is-IS",
+        "types": {
+            "Standard": [
+                {
+                    "name": "is-IS-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "is-IS-Standard-B",
+                    "gender": "FEMALE"
+                }
+            ],
+            "Premium": [],
+            "Studio": []
+        }
+    },
+    "Indonesian (Indonesia)": {
+        "languageCode": "id-ID",
+        "types": {
+            "Standard": [
+                {
+                    "name": "id-ID-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "id-ID-Standard-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "id-ID-Standard-C",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "id-ID-Standard-D",
+                    "gender": "FEMALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "id-ID-Wavenet-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "id-ID-Wavenet-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "id-ID-Wavenet-C",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "id-ID-Wavenet-D",
+                    "gender": "FEMALE"
+                }
+            ],
+            "Studio": []
+        }
+    },
+    "Italian (Italy)": {
+        "languageCode": "it-IT",
+        "types": {
+            "Standard": [
+                {
+                    "name": "it-IT-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "it-IT-Standard-B",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "it-IT-Standard-C",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "it-IT-Standard-D",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "it-IT-Standard-E",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "it-IT-Standard-F",
+                    "gender": "MALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "it-IT-Journey-D",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "it-IT-Journey-F",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "it-IT-Journey-O",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "it-IT-Neural2-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "it-IT-Neural2-C",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "it-IT-Wavenet-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "it-IT-Wavenet-B",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "it-IT-Wavenet-C",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "it-IT-Wavenet-D",
+                    "gender": "MALE"
+                }
+            ],
+            "Studio": []
+        }
+    },
+    "Japanese (Japan)": {
+        "languageCode": "ja-JP",
+        "types": {
+            "Standard": [
+                {
+                    "name": "ja-JP-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "ja-JP-Standard-B",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "ja-JP-Standard-C",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "ja-JP-Standard-D",
+                    "gender": "MALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "ja-JP-Neural2-B",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "ja-JP-Neural2-C",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "ja-JP-Neural2-D",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "ja-JP-Wavenet-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "ja-JP-Wavenet-B",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "ja-JP-Wavenet-C",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "ja-JP-Wavenet-D",
+                    "gender": "MALE"
+                }
+            ],
+            "Studio": []
+        }
+    },
+    "Kannada (India)": {
+        "languageCode": "kn-IN",
+        "types": {
+            "Standard": [
+                {
+                    "name": "kn-IN-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "kn-IN-Standard-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "kn-IN-Standard-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "kn-IN-Standard-D",
+                    "gender": "MALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "kn-IN-Wavenet-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "kn-IN-Wavenet-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "kn-IN-Wavenet-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "kn-IN-Wavenet-D",
+                    "gender": "MALE"
+                }
+            ],
+            "Studio": []
+        }
+    },
+    "Korean (South Korea)": {
+        "languageCode": "ko-KR",
+        "types": {
+            "Standard": [
+                {
+                    "name": "ko-KR-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "ko-KR-Standard-B",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "ko-KR-Standard-C",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "ko-KR-Standard-D",
+                    "gender": "MALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "ko-KR-Neural2-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "ko-KR-Neural2-B",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "ko-KR-Neural2-C",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "ko-KR-Wavenet-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "ko-KR-Wavenet-B",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "ko-KR-Wavenet-C",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "ko-KR-Wavenet-D",
+                    "gender": "MALE"
+                }
+            ],
+            "Studio": []
+        }
+    },
+    "Latvian (Latvia)": {
+        "languageCode": "lv-LV",
+        "types": {
+            "Standard": [
+                {
+                    "name": "lv-LV-Standard-A",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "lv-LV-Standard-B",
+                    "gender": "MALE"
+                }
+            ],
+            "Premium": [],
+            "Studio": []
+        }
+    },
+    "Lithuanian (Lithuania)": {
+        "languageCode": "lt-LT",
+        "types": {
+            "Standard": [
+                {
+                    "name": "lt-LT-Standard-A",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "lt-LT-Standard-B",
+                    "gender": "MALE"
+                }
+            ],
+            "Premium": [],
+            "Studio": []
+        }
+    },
+    "Malay (Malaysia)": {
+        "languageCode": "ms-MY",
+        "types": {
+            "Standard": [
+                {
+                    "name": "ms-MY-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "ms-MY-Standard-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "ms-MY-Standard-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "ms-MY-Standard-D",
+                    "gender": "MALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "ms-MY-Wavenet-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "ms-MY-Wavenet-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "ms-MY-Wavenet-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "ms-MY-Wavenet-D",
+                    "gender": "MALE"
+                }
+            ],
+            "Studio": []
+        }
+    },
+    "Malayalam (India)": {
+        "languageCode": "ml-IN",
+        "types": {
+            "Standard": [
+                {
+                    "name": "ml-IN-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "ml-IN-Standard-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "ml-IN-Standard-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "ml-IN-Standard-D",
+                    "gender": "MALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "ml-IN-Wavenet-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "ml-IN-Wavenet-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "ml-IN-Wavenet-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "ml-IN-Wavenet-D",
+                    "gender": "MALE"
+                }
+            ],
+            "Studio": []
+        }
+    },
+    "Mandarin Chinese": {
+        "languageCode": "cmn-CN",
+        "types": {
+            "Standard": [
+                {
+                    "name": "cmn-CN-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "cmn-CN-Standard-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "cmn-CN-Standard-C",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "cmn-CN-Standard-D",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "cmn-TW-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "cmn-TW-Standard-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "cmn-TW-Standard-C",
+                    "gender": "MALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "cmn-CN-Wavenet-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "cmn-CN-Wavenet-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "cmn-CN-Wavenet-C",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "cmn-CN-Wavenet-D",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "cmn-TW-Wavenet-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "cmn-TW-Wavenet-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "cmn-TW-Wavenet-C",
+                    "gender": "MALE"
+                }
+            ],
+            "Studio": []
+        }
+    },
+    "Marathi (India)": {
+        "languageCode": "mr-IN",
+        "types": {
+            "Standard": [
+                {
+                    "name": "mr-IN-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "mr-IN-Standard-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "mr-IN-Standard-C",
+                    "gender": "FEMALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "mr-IN-Wavenet-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "mr-IN-Wavenet-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "mr-IN-Wavenet-C",
+                    "gender": "FEMALE"
+                }
+            ],
+            "Studio": []
+        }
+    },
+    "Norwegian (Norway)": {
+        "languageCode": "nb-NO",
+        "types": {
+            "Standard": [
+                {
+                    "name": "nb-NO-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "nb-NO-Standard-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "nb-NO-Standard-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "nb-NO-Standard-D",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "nb-NO-Standard-E",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "nb-NO-Standard-F",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "nb-NO-Standard-G",
+                    "gender": "MALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "nb-NO-Wavenet-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "nb-NO-Wavenet-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "nb-NO-Wavenet-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "nb-NO-Wavenet-D",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "nb-NO-Wavenet-E",
+                    "gender": "FEMALE"
+                }
+            ],
+            "Studio": []
+        }
+    },
+    "Polish (Poland)": {
+        "languageCode": "pl-PL",
+        "types": {
+            "Standard": [
+                {
+                    "name": "pl-PL-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "pl-PL-Standard-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "pl-PL-Standard-C",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "pl-PL-Standard-D",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "pl-PL-Standard-E",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "pl-PL-Standard-F",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "pl-PL-Standard-G",
+                    "gender": "MALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "pl-PL-Wavenet-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "pl-PL-Wavenet-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "pl-PL-Wavenet-C",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "pl-PL-Wavenet-D",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "pl-PL-Wavenet-E",
+                    "gender": "FEMALE"
+                }
+            ],
+            "Studio": []
+        }
+    },
+    "Portuguese (Brazil)": {
+        "languageCode": "pt-BR",
+        "types": {
+            "Standard": [
+                {
+                    "name": "pt-BR-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "pt-BR-Standard-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "pt-BR-Standard-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "pt-BR-Standard-D",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "pt-BR-Standard-E",
+                    "gender": "MALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "pt-BR-Neural2-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "pt-BR-Neural2-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "pt-BR-Neural2-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "pt-BR-Wavenet-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "pt-BR-Wavenet-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "pt-BR-Wavenet-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "pt-BR-Wavenet-D",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "pt-BR-Wavenet-E",
+                    "gender": "MALE"
+                }
+            ],
+            "Studio": []
+        }
+    },
+    "Portuguese (Portugal)": {
+        "languageCode": "pt-PT",
+        "types": {
+            "Standard": [
+                {
+                    "name": "pt-PT-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "pt-PT-Standard-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "pt-PT-Standard-C",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "pt-PT-Standard-D",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "pt-PT-Standard-E",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "pt-PT-Standard-F",
+                    "gender": "MALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "pt-PT-Wavenet-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "pt-PT-Wavenet-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "pt-PT-Wavenet-C",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "pt-PT-Wavenet-D",
+                    "gender": "FEMALE"
+                }
+            ],
+            "Studio": []
+        }
+    },
+    "Punjabi (India)": {
+        "languageCode": "pa-IN",
+        "types": {
+            "Standard": [
+                {
+                    "name": "pa-IN-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "pa-IN-Standard-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "pa-IN-Standard-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "pa-IN-Standard-D",
+                    "gender": "MALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "pa-IN-Wavenet-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "pa-IN-Wavenet-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "pa-IN-Wavenet-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "pa-IN-Wavenet-D",
+                    "gender": "MALE"
+                }
+            ],
+            "Studio": []
+        }
+    },
+    "Romanian (Romania)": {
+        "languageCode": "ro-RO",
+        "types": {
+            "Standard": [
+                {
+                    "name": "ro-RO-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "ro-RO-Standard-B",
+                    "gender": "FEMALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "ro-RO-Wavenet-A",
+                    "gender": "FEMALE"
+                }
+            ],
+            "Studio": []
+        }
+    },
+    "Russian (Russia)": {
+        "languageCode": "ru-RU",
+        "types": {
+            "Standard": [
+                {
+                    "name": "ru-RU-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "ru-RU-Standard-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "ru-RU-Standard-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "ru-RU-Standard-D",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "ru-RU-Standard-E",
+                    "gender": "FEMALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "ru-RU-Wavenet-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "ru-RU-Wavenet-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "ru-RU-Wavenet-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "ru-RU-Wavenet-D",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "ru-RU-Wavenet-E",
+                    "gender": "FEMALE"
+                }
+            ],
+            "Studio": []
+        }
+    },
+    "Serbian (Cyrillic)": {
+        "languageCode": "sr-RS",
+        "types": {
+            "Standard": [
+                {
+                    "name": "sr-RS-Standard-A",
+                    "gender": "FEMALE"
+                }
+            ],
+            "Premium": [],
+            "Studio": []
+        }
+    },
+    "Slovak (Slovakia)": {
+        "languageCode": "sk-SK",
+        "types": {
+            "Standard": [
+                {
+                    "name": "sk-SK-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "sk-SK-Standard-B",
+                    "gender": "FEMALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "sk-SK-Wavenet-A",
+                    "gender": "FEMALE"
+                }
+            ],
+            "Studio": []
+        }
+    },
+    "Spanish (Spain)": {
+        "languageCode": "es-ES",
+        "types": {
+            "Standard": [
+                {
+                    "name": "es-ES-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "es-ES-Standard-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "es-ES-Standard-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "es-ES-Standard-D",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "es-ES-Standard-E",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "es-ES-Standard-F",
+                    "gender": "FEMALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "es-ES-Journey-D",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "es-ES-Journey-F",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "es-ES-Journey-O",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "es-ES-Neural2-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "es-ES-Neural2-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "es-ES-Neural2-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "es-ES-Neural2-D",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "es-ES-Neural2-E",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "es-ES-Neural2-F",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "es-ES-Polyglot-1",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "es-ES-Wavenet-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "es-ES-Wavenet-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "es-ES-Wavenet-D",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "es-ES-Wavenet-E",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "es-ES-Wavenet-F",
+                    "gender": "FEMALE"
+                }
+            ],
+            "Studio": [
+                {
+                    "name": "es-ES-Studio-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "es-ES-Studio-F",
+                    "gender": "MALE"
+                }
+            ]
+        }
+    },
+    "Spanish (US)": {
+        "languageCode": "es-US",
+        "types": {
+            "Standard": [
+                {
+                    "name": "es-US-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "es-US-Standard-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "es-US-Standard-C",
+                    "gender": "MALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "es-US-Journey-D",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "es-US-Journey-F",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "es-US-Journey-O",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "es-US-Neural2-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "es-US-Neural2-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "es-US-Neural2-C",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "es-US-News-D",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "es-US-News-E",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "es-US-News-F",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "es-US-News-G",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "es-US-Polyglot-1",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "es-US-Wavenet-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "es-US-Wavenet-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "es-US-Wavenet-C",
+                    "gender": "MALE"
+                }
+            ],
+            "Studio": [
+                {
+                    "name": "es-US-Studio-B",
+                    "gender": "MALE"
+                }
+            ]
+        }
+    },
+    "Swedish (Sweden)": {
+        "languageCode": "sv-SE",
+        "types": {
+            "Standard": [
+                {
+                    "name": "sv-SE-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "sv-SE-Standard-B",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "sv-SE-Standard-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "sv-SE-Standard-D",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "sv-SE-Standard-E",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "sv-SE-Standard-F",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "sv-SE-Standard-G",
+                    "gender": "MALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "sv-SE-Wavenet-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "sv-SE-Wavenet-B",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "sv-SE-Wavenet-C",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "sv-SE-Wavenet-D",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "sv-SE-Wavenet-E",
+                    "gender": "MALE"
+                }
+            ],
+            "Studio": []
+        }
+    },
+    "Tamil (India)": {
+        "languageCode": "ta-IN",
+        "types": {
+            "Standard": [
+                {
+                    "name": "ta-IN-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "ta-IN-Standard-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "ta-IN-Standard-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "ta-IN-Standard-D",
+                    "gender": "MALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "ta-IN-Wavenet-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "ta-IN-Wavenet-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "ta-IN-Wavenet-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "ta-IN-Wavenet-D",
+                    "gender": "MALE"
+                }
+            ],
+            "Studio": []
+        }
+    },
+    "Telugu (India)": {
+        "languageCode": "te-IN",
+        "types": {
+            "Standard": [
+                {
+                    "name": "te-IN-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "te-IN-Standard-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "te-IN-Standard-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "te-IN-Standard-D",
+                    "gender": "MALE"
+                }
+            ],
+            "Premium": [],
+            "Studio": []
+        }
+    },
+    "Thai (Thailand)": {
+        "languageCode": "th-TH",
+        "types": {
+            "Standard": [
+                {
+                    "name": "th-TH-Standard-A",
+                    "gender": "FEMALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "th-TH-Neural2-C",
+                    "gender": "FEMALE"
+                }
+            ],
+            "Studio": []
+        }
+    },
+    "Turkish (Turkey)": {
+        "languageCode": "tr-TR",
+        "types": {
+            "Standard": [
+                {
+                    "name": "tr-TR-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "tr-TR-Standard-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "tr-TR-Standard-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "tr-TR-Standard-D",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "tr-TR-Standard-E",
+                    "gender": "MALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "tr-TR-Wavenet-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "tr-TR-Wavenet-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "tr-TR-Wavenet-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "tr-TR-Wavenet-D",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "tr-TR-Wavenet-E",
+                    "gender": "MALE"
+                }
+            ],
+            "Studio": []
+        }
+    },
+    "Ukrainian (Ukraine)": {
+        "languageCode": "uk-UA",
+        "types": {
+            "Standard": [
+                {
+                    "name": "uk-UA-Standard-A",
+                    "gender": "FEMALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "uk-UA-Wavenet-A",
+                    "gender": "FEMALE"
+                }
+            ],
+            "Studio": []
+        }
+    },
+    "Vietnamese (Vietnam)": {
+        "languageCode": "vi-VN",
+        "types": {
+            "Standard": [
+                {
+                    "name": "vi-VN-Standard-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "vi-VN-Standard-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "vi-VN-Standard-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "vi-VN-Standard-D",
+                    "gender": "MALE"
+                }
+            ],
+            "Premium": [
+                {
+                    "name": "vi-VN-Neural2-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "vi-VN-Neural2-D",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "vi-VN-Wavenet-A",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "vi-VN-Wavenet-B",
+                    "gender": "MALE"
+                },
+                {
+                    "name": "vi-VN-Wavenet-C",
+                    "gender": "FEMALE"
+                },
+                {
+                    "name": "vi-VN-Wavenet-D",
+                    "gender": "MALE"
+                }
+            ],
+            "Studio": []
+        }
+    }
+}
