@@ -58,67 +58,98 @@ class Gender(str, Enum):
     MALE = "MALE"
     FEMALE = "FEMALE"
 
-class VoiceDetails(BaseModel):
-    name: str
-    gender: Gender
-
-class VoiceTypes(BaseModel):
-    Standard: List[VoiceDetails] = []
-    Premium: List[VoiceDetails] = []
-    Studio: List[VoiceDetails] = []
-
-class LanguageVoices(BaseModel):
-    languageCode: str
-    types: VoiceTypes
-
-def validate_voice(voice_name: str) -> bool:
-    """Validate if a voice name exists in the available voices."""
-    for language in AVAILABLE_VOICES.values():
-        for type_voices in language["types"].values():
-            if any(voice["name"] == voice_name for voice in type_voices):
-                return True
-    return False
+class VoiceSelection(BaseModel):
+    language: str  # e.g., "English (US)"
+    type: str      # e.g., "Standard", "Premium", "Studio"
+    name: str      # e.g., "en-US-Journey-D"
+    gender: Gender  # e.g., "MALE" or "FEMALE"
 
 class VoiceConfiguration(BaseModel):
-    question: str
-    answer: str
+    question: VoiceSelection
+    answer: VoiceSelection
 
 class TTSModelConfig(BaseModel):
     default_voices: VoiceConfiguration
     model: Optional[str] = None
 
 class TextToSpeechConfig(BaseModel):
-    default_tts_model: str = "openai"
+    default_tts_model: str = "gemini"
     output_directories: dict = {
         "transcripts": "./data/transcripts",
         "audio": "./data/audio"
     }
     elevenlabs: TTSModelConfig = Field(
         default_factory=lambda: TTSModelConfig(
-            default_voices=VoiceConfiguration(question="Chris", answer="Jessica"),
+            default_voices=VoiceConfiguration(
+                question=VoiceSelection(
+                    language="English (US)",
+                    type="Standard",
+                    name="Chris",
+                    gender=Gender.MALE
+                ),
+                answer=VoiceSelection(
+                    language="English (US)",
+                    type="Standard",
+                    name="Jessica",
+                    gender=Gender.FEMALE
+                )
+            ),
             model="eleven_multilingual_v2"
         )
     )
     openai: TTSModelConfig = Field(
         default_factory=lambda: TTSModelConfig(
-            default_voices=VoiceConfiguration(question="echo", answer="shimmer"),
+            default_voices=VoiceConfiguration(
+                question=VoiceSelection(
+                    language="English (US)",
+                    type="Standard",
+                    name="echo",
+                    gender=Gender.MALE
+                ),
+                answer=VoiceSelection(
+                    language="English (US)",
+                    type="Standard",
+                    name="shimmer",
+                    gender=Gender.FEMALE
+                )
+            ),
             model="tts-1-hd"
         )
     )
     edge: TTSModelConfig = Field(
         default_factory=lambda: TTSModelConfig(
-            default_voices=VoiceConfiguration(question="en-US-JennyNeural", answer="en-US-EricNeural")
+            default_voices=VoiceConfiguration(
+                question=VoiceSelection(
+                    language="English (US)",
+                    type="Standard",
+                    name="en-US-JennyNeural",
+                    gender=Gender.FEMALE
+                ),
+                answer=VoiceSelection(
+                    language="English (US)",
+                    type="Standard",
+                    name="en-US-EricNeural",
+                    gender=Gender.MALE
+                )
+            )
         )
     )
     gemini: TTSModelConfig = Field(
         default_factory=lambda: TTSModelConfig(
-            default_voices=VoiceConfiguration(question="en-US-Journey-D", answer="en-US-Journey-O")
-        )
-    )
-    geminimulti: TTSModelConfig = Field(
-        default_factory=lambda: TTSModelConfig(
-            default_voices=VoiceConfiguration(question="en-US-Studio-Q", answer="en-US-Studio-O"),
-            model="en-US-Studio-MultiSpeaker"
+            default_voices=VoiceConfiguration(
+                question=VoiceSelection(
+                    language="English (US)",
+                    type="Premium",
+                    name="en-US-Journey-D",
+                    gender=Gender.MALE
+                ),
+                answer=VoiceSelection(
+                    language="English (US)",
+                    type="Premium",
+                    name="en-US-Journey-O",
+                    gender=Gender.FEMALE
+                )
+            )
         )
     )
     audio_format: str = "mp3"
@@ -130,8 +161,8 @@ class ConversationConfig(BaseModel):
     roles_person1: str = "main summarizer"
     roles_person2: str = "questioner/clarifier"
     dialogue_structure: List[str] = ["Introduction", "Main Content Summary", "Conclusion"]
-    podcast_name: str = "PODCASTIFY"
-    podcast_tagline: str = "Your Personal Generative AI Podcast"
+    podcast_name: str = "PODCASTER"
+    podcast_tagline: str = "Your CloudAmbassadors Personal Generative AI Podcast"
     output_language: str = "English"
     engagement_techniques: List[str] = ["rhetorical questions", "anecdotes", "analogies", "humor"]
     creativity: int = Field(default=1, ge=0, le=1)
@@ -159,6 +190,18 @@ class AudioRequest(BaseModel):
     api_key_label: Optional[str] = None
     is_local: bool = False
     longform: bool = False
+
+def validate_voice_selection(voice: VoiceSelection) -> bool:
+    """Validate if a voice selection is valid."""
+    if voice.language not in AVAILABLE_VOICES:
+        return False
+        
+    language_data = AVAILABLE_VOICES[voice.language]
+    if voice.type not in language_data["types"]:
+        return False
+        
+    voice_list = language_data["types"][voice.type]
+    return any(v["name"] == voice.name and v["gender"] == voice.gender for v in voice_list)
 
 class TranscriptGenerator:
     @staticmethod
@@ -202,13 +245,19 @@ class AudioGenerator:
             if not model_config:
                 raise HTTPException(status_code=400, detail=f"Invalid TTS model: {tts_model}")
                 
-            question_voice = model_config.default_voices.question
-            answer_voice = model_config.default_voices.answer
+            # Validate question voice
+            if not validate_voice_selection(model_config.default_voices.question):
+                raise HTTPException(
+                    status_code=400, 
+                    detail=f"Invalid question voice configuration: {model_config.default_voices.question}"
+                )
             
-            if not validate_voice(question_voice):
-                raise HTTPException(status_code=400, detail=f"Invalid question voice: {question_voice}")
-            if not validate_voice(answer_voice):
-                raise HTTPException(status_code=400, detail=f"Invalid answer voice: {answer_voice}")
+            # Validate answer voice
+            if not validate_voice_selection(model_config.default_voices.answer):
+                raise HTTPException(
+                    status_code=400, 
+                    detail=f"Invalid answer voice configuration: {model_config.default_voices.answer}"
+                )
             
             # Create temporary directory structure
             temp_dir = os.path.join(os.getcwd(), "data", "audio", "tmp")
@@ -233,6 +282,18 @@ class AudioGenerator:
 @app.get("/")
 async def home(request: Request):
     return templates.TemplateResponse("index.html", {"request": request})
+
+@app.get("/available-voices")
+async def get_available_voices():
+    """Get all available voices grouped by language and type."""
+    return JSONResponse(AVAILABLE_VOICES)
+
+@app.get("/available-voices/{language}")
+async def get_voices_by_language(language: str):
+    """Get available voices for a specific language."""
+    if language not in AVAILABLE_VOICES:
+        raise HTTPException(status_code=404, detail=f"Language not found: {language}")
+    return JSONResponse(AVAILABLE_VOICES[language])
 
 @app.post("/generate-transcript")
 async def generate_transcript(request: TranscriptRequest = Body(...)):
