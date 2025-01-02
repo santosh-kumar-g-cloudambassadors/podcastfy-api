@@ -264,10 +264,24 @@ class AudioGenerator:
             os.makedirs(temp_dir, exist_ok=True)
             os.environ['TMPDIR'] = temp_dir
             
+            # Extract voice names for the selected model
+            model_config = getattr(params.text_to_speech, tts_model)
+            voice_config = {
+                "tts_config": {
+                    "default_tts_model": tts_model,
+                    tts_model: {
+                        "default_voices": {
+                            "question": model_config.default_voices.question.name,
+                            "answer": model_config.default_voices.answer.name
+                        }
+                    }
+                }
+            }
+            
             audio_file = generate_podcast(
                 transcript_file=transcript_file,
                 tts_model=tts_model,
-                conversation_config=params.text_to_speech.dict(),
+                conversation_config=voice_config,
                 is_local=params.is_local,
                 llm_model_name=params.llm_model_name,
                 api_key_label=params.api_key_label,
