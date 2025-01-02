@@ -102,6 +102,6 @@ Response:
 ![alt text](image-1.png)
 
 Response: <br>
-<audio controls src="data/audio/podcast_c10c8b3ea3904275adef8998a57ad171.mp3" title="Title"></audio>
+<audio controls src="podcast_c10c8b3ea3904275adef8998a57ad171.mp3" title="Title"></audio>
 
 ---
